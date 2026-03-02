@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>CRM Follow-up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📊 CRM Follow-up WhatsApp</h1>
+
+<div class="card">
+  <input id="nome" placeholder="Nome do cliente">
+  <input id="telefone" placeholder="Telefone">
+  <button onclick="adicionarCliente()">Adicionar</button>
+</div>
+
+<div class="card">
+  <strong>Resumo:</strong>
+  <p id="resumo"></p>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Cliente</th>
+      <th>Tempo</th>
+      <th>Status</th>
+      <th>Ação</th>
+      <th>WhatsApp</th>
+    </tr>
+  </thead>
+  <tbody id="tabela"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

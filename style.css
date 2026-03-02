@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+  background:#0f172a;
+  color:white;
+  padding:20px
+}
+
+h1 {
+  margin-bottom:20px
+}
+
+input, button {
+  padding:8px;
+  margin:5px
+}
+
+table {
+  width:100%;
+  margin-top:20px;
+  border-collapse:collapse
+}
+
+th, td {
+  padding:10px;
+  border-bottom:1px solid #334155
+}
+
+.verde { background:#064e3b }
+.amarelo { background:#78350f }
+.vermelho { background:#7f1d1d }
+
+.card {
+  background:#1e293b;
+  padding:15px;
+  border-radius:10px;
+  margin-bottom:20px
+}
+
+button {
+  cursor:pointer
+}
